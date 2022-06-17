@@ -1,0 +1,33 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #ff0033;
+}
+a i::before
+{
+  content: '';
+  position: absolute;
+  top: -3.5px;
+  left: 40%;
+  width: 10px;
+  height: 5px;
+  border: 2px solid #fff;
+  background: #27282c;
+  transition: 0.5s;
+}
+
+a 
+{
+  content: '';
+  position: absolute;
+  top: -3.5px;
+  left: 40%;
+  width: 10px;
+  height: 5px;
+  border: 2px solid #fff;
+  background: #27282c;
+  transition: 0.5s;
+}
